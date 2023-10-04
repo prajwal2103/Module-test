@@ -9,9 +9,9 @@
     display:none;
 }
 header{
+    
     position: sticky;
     top:0px;
-    z-index: 2;
    
 }
 nav{
@@ -20,6 +20,7 @@ nav{
     padding-inline: 20px;
     width:100vw;
     background-color: white;
+   
 
    
 }
