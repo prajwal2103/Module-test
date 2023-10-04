@@ -422,8 +422,14 @@ margin:0;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
     overflow-x: hidden;
+    transition: all 1s ease 1s;
     
 }
+figure>img:hover{
+    width:100px;
+}
+
+
 
 .hiring-partner{
     width:100vw;
@@ -432,6 +438,10 @@ margin:0;
     margin:auto;
     overflow: hidden;
     margin:0px;
+    transition: all 1s ease 1s;
+}
+.hiring-partner>button:hover{
+    background-color: #965400;
 }
 .h-row1 .p1{
     text-align: center;
@@ -581,12 +591,23 @@ margin:0px
     margin-block:5px;
    
   }
-  .sub,.student{
+  .first,.student,.para-1,.ranks{
     display:none;
   }
   .list{
     flex-direction: column;
   }
-
+  .my-card{
+    width:80%;
+    margin: auto;
+    margin-block:10px;
+  }
+  .hero-section{
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+  }
+  
+   
   } 
 
